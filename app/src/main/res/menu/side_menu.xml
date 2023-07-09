@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/linearlayout"
+        android:orderInCategory="100"
+        android:title="Linear Layout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Relativelayout"
+        android:orderInCategory="100"
+        android:title="Relative Layout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Constraintlayout"
+        android:orderInCategory="100"
+        android:title="Constraint layout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Framelayout"
+        android:orderInCategory="100"
+        android:title="Frame layout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Chains"
+        android:orderInCategory="100"
+        android:title="Chains"
+        app:showAsAction="never" />
+</menu>
