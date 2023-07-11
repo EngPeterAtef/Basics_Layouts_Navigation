@@ -16,15 +16,13 @@ class FrameLayoutActivity : AppCompatActivity() {
         val btn1 = findViewById<android.widget.Button>(R.id.btn1)
 //        on click go to constraint layout
         btn1.setOnClickListener {
-            val intent = Intent(this, ConstraintLayoutActivity::class.java)
-            startActivity(intent)
+            navigateTo(this, ConstraintLayoutActivity::class.java)
         }
 //        get btn2
         val btn2 = findViewById<android.widget.Button>(R.id.btn2)
 //        on click go to chains
         btn2.setOnClickListener {
-            val intent = Intent(this, Chains::class.java)
-            startActivity(intent)
+            navigateTo(this, Chains::class.java)
         }
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

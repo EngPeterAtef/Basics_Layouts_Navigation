@@ -16,15 +16,13 @@ class ConstraintLayoutActivity : AppCompatActivity() {
         val btn5 = findViewById<Button>(R.id.btn5)
 //        on click go to frame layout
         btn5.setOnClickListener {
-            val intent = Intent(this, FrameLayoutActivity::class.java)
-            startActivity(intent)
+            navigateTo(this, FrameLayoutActivity::class.java)
         }
 //        get btn6
         val btn6 = findViewById<Button>(R.id.btn6)
 //        on click go to relative layout
         btn6.setOnClickListener {
-            val intent = Intent(this, RelativeLayoutActivity::class.java)
-            startActivity(intent)
+            navigateTo(this, RelativeLayoutActivity::class.java)
         }
 //        get btn7
         val btn7 = findViewById<Button>(R.id.btn7)

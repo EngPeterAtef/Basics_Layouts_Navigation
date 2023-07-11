@@ -17,15 +17,13 @@ class RelativeLayoutActivity : AppCompatActivity() {
         val goToConstraintLayoutBtn = findViewById<Button>(R.id.btn3)
 //        on click on goToConstraintLayoutBtn go to ConstraintLayoutActivity
         goToConstraintLayoutBtn.setOnClickListener {
-            val intent = Intent(this, ConstraintLayoutActivity::class.java)
-            startActivity(intent)
+            navigateTo(this, ConstraintLayoutActivity::class.java)
         }
 //        get btn4 by ID
         val goToLinearLayout = findViewById<Button>(R.id.btn4)
 //        on click on goToLinearLayout go to LinearLayoutActivity
         goToLinearLayout.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            navigateTo(this, MainActivity::class.java)
         }
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
